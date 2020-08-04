@@ -7,7 +7,7 @@ import requests from './requests';
 
 function App() {
     return (
-        <div className="App" >
+        <div className="app" >
             <Banner />
             <Row isLargeRow={true}
                 title="NETFLIX ORIGINAL" fetchUrl={requests.fetchNetflixOriginals} />
